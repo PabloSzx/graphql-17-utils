@@ -1,14 +1,10 @@
 {
   "name": "graphql-17-utils",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "node test.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@graphql-tools/schema": "^8.3.11",
     "graphql": "17.0.0-alpha.1"
